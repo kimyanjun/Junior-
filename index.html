@@ -1,83 +1,61 @@
   
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Home Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <nav>
-    <div class="logo">MyWebsite</div>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MySite</h1>
 
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to My Website</h1>
-
-      <p>
-        We create modern, beautiful and responsive digital experiences
-        for businesses and individuals.
-      </p>
-
-      <button class="btn" onclick="showMessage()">
-        Get Started
-      </button>
-    </div>
-  </section>
-
-  <section class="services" id="services">
-    <h2>Our Services</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Web Design</h3>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Welcome to My Website</h2>
         <p>
-          Modern and responsive websites designed to look great
-          on phones, tablets and computers.
+          Create something amazing with a clean and modern website.
         </p>
+
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="card">
+        <h3>Simple</h3>
+        <p>Easy-to-use design that looks great on any device.</p>
       </div>
 
       <div class="card">
-        <h3>Development</h3>
-        <p>
-          Fast and functional websites built using modern
-          HTML, CSS and JavaScript.
-        </p>
+        <h3>Modern</h3>
+        <p>A clean and attractive layout for your website.</p>
       </div>
 
       <div class="card">
-        <h3>Support</h3>
-        <p>
-          Reliable technical support and improvements to keep
-          your website running smoothly.
-        </p>
+        <h3>Responsive</h3>
+        <p>Works smoothly on phones, tablets, and computers.</p>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> MyWebsite. All rights reserved.</p>
+    <p>&copy; 2026 MySite. All rights reserved.</p>
   </footer>
-
-  <script>
-    // Display current year
-    document.getElementById("year").textContent = new Date().getFullYear();
-
-    // Button interaction
-    function showMessage() {
-      alert("Welcome! Let's get started.");
-    }
-  </script>
 
 </body>
 </html>
