@@ -1,114 +1,52 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Learn CSS</title>
 
-    <!-- CSS code starts here -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f7fb;
-            color: #222;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #264de4;
-            color: white;
-            text-align: center;
-            padding: 30px;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 900px;
-            margin: 30px auto;
-        }
-
-        .lesson {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #264de4;
-        }
-
-        code {
-            background-color: #eee;
-            padding: 3px 6px;
-            border-radius: 4px;
-        }
-
-        pre {
-            background-color: #222;
-            color: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            overflow-x: auto;
-        }
-
-        .example {
-            background-color: lightblue;
-            color: darkblue;
-            padding: 15px;
-            text-align: center;
-            border-radius: 8px;
-        }
-
-        .back-button {
-            display: inline-block;
-            background-color: #264de4;
-            color: white;
-            padding: 12px 20px;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-
-        .back-button:hover {
-            background-color: #1638b5;
-        }
-    </style>
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
         <h1>Learn CSS</h1>
-        <p>Learn how to style your HTML websites with CSS.</p>
+        <p>Learn how to style your websites with CSS.</p>
     </header>
 
-    <div class="container">
+    <main>
 
-        <div class="lesson">
+        <section class="lesson">
             <h2>What is CSS?</h2>
+
             <p>
-                CSS stands for <strong>Cascading Style Sheets</strong>.
-                CSS is used to make HTML websites look better.
+                CSS stands for Cascading Style Sheets.
+                It is used to style and design HTML websites.
             </p>
 
-            <p>With CSS you can change:</p>
+            <p>CSS can change:</p>
 
             <ul>
-                <li>Colors</li>
-                <li>Fonts</li>
-                <li>Backgrounds</li>
+                <li>Text colors</li>
+                <li>Background colors</li>
+                <li>Font sizes</li>
                 <li>Spacing</li>
                 <li>Buttons</li>
                 <li>Layouts</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="lesson">
+        <section class="lesson">
             <h2>1. Changing Text Color</h2>
 
-            <p>You can use the <code>color</code> property.</p>
+            <p>
+                The <code>color</code> property changes the color
+                of text.
+            </p>
 
             <pre>
 h1 {
@@ -116,13 +54,16 @@ h1 {
 }
             </pre>
 
-            <h1 style="color: blue;">This text is blue</h1>
-        </div>
+            <h1 class="blue-text">This text is blue</h1>
+        </section>
 
-        <div class="lesson">
+        <section class="lesson">
             <h2>2. Changing Background Color</h2>
 
-            <p>Use <code>background-color</code> to change the background.</p>
+            <p>
+                The <code>background-color</code> property changes
+                the background.
+            </p>
 
             <pre>
 body {
@@ -130,15 +71,18 @@ body {
 }
             </pre>
 
-            <div class="example">
+            <div class="example-box">
                 This box has a background color.
             </div>
-        </div>
+        </section>
 
-        <div class="lesson">
+        <section class="lesson">
             <h2>3. Changing Font Size</h2>
 
-            <p>Use <code>font-size</code> to change the size of text.</p>
+            <p>
+                The <code>font-size</code> property changes the
+                size of text.
+            </p>
 
             <pre>
 p {
@@ -146,41 +90,34 @@ p {
 }
             </pre>
 
-            <p style="font-size: 20px;">
-                This text is 20 pixels.
+            <p class="big-text">
+                This is an example of bigger text.
             </p>
-        </div>
+        </section>
 
-        <div class="lesson">
+        <section class="lesson">
             <h2>4. Styling Buttons</h2>
 
-            <p>You can use CSS to make buttons look attractive.</p>
+            <p>
+                CSS can make buttons look better.
+            </p>
 
             <pre>
 button {
     background-color: blue;
     color: white;
     padding: 10px;
-    border-radius: 5px;
 }
             </pre>
 
-            <button style="
-                background-color: blue;
-                color: white;
-                padding: 10px 20px;
-                border: none;
-                border-radius: 5px;
-            ">
-                Example Button
-            </button>
-        </div>
+            <button>Example Button</button>
+        </section>
 
-        <div class="lesson">
+        <section class="lesson">
             <h2>5. CSS Classes</h2>
 
             <p>
-                A class lets you apply the same CSS style to different
+                Classes allow you to apply CSS styles to specific
                 HTML elements.
             </p>
 
@@ -188,48 +125,26 @@ button {
 HTML:
 
 &lt;p class="important"&gt;
-    Learn CSS!
+    This is important.
 &lt;/p&gt;
 
 CSS:
 
 .important {
     color: red;
-    font-size: 24px;
 }
             </pre>
 
-            <p style="color: red; font-size: 24px;">
-                Learn CSS!
+            <p class="important">
+                This is an important message.
             </p>
-        </div>
-
-        <div class="lesson">
-            <h2>HTML + CSS Together</h2>
-
-            <p>Here is a simple example:</p>
-
-            <pre>
-&lt;h1 class="title"&gt;My Website&lt;/h1&gt;
-
-&lt;style&gt;
-.title {
-    color: purple;
-    text-align: center;
-}
-&lt;/style&gt;
-            </pre>
-
-            <h1 style="color: purple; text-align: center;">
-                My Website
-            </h1>
-        </div>
+        </section>
 
         <a href="index.html" class="back-button">
             ← Back to Home
         </a>
 
-    </div>
+    </main>
 
 </body>
 </html>
