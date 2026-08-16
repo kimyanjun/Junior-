@@ -1,0 +1,142 @@
+/* General page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+    background-color: #264de4;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+/* Main container */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+/* Lesson boxes */
+
+.lesson {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Lesson headings */
+
+.lesson h2 {
+    color: #264de4;
+}
+
+
+/* Code examples */
+
+pre {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+
+/* Inline code */
+
+code {
+    background-color: #eee;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+
+/* Blue text example */
+
+.blue-text {
+    color: blue;
+}
+
+
+/* Background example */
+
+.example-box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+/* Bigger text */
+
+.big-text {
+    font-size: 24px;
+}
+
+
+/* Important text */
+
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Button */
+
+button {
+    background-color: #264de4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Button hover effect */
+
+button:hover {
+    background-color: #1638b5;
+}
+
+
+/* Back button */
+
+.back-button {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+
+/* Back button hover */
+
+.back-button:hover {
+    background-color: #444;
+}
