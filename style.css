@@ -137,3 +137,70 @@ footer {
     width: 100%;
   }
 }
+.learning {
+    padding: 70px 8%;
+    background: #f5f7fb;
+    text-align: center;
+}
+
+.learning > h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.lesson {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.lesson h2 {
+    font-size: 30px;
+    color: #e34c26;
+    margin-bottom: 15px;
+}
+
+.lesson p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.lesson h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.lesson ul {
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+.css-lesson h2 {
+    color: #264de4;
+}
+
+.learn-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.learn-btn:hover {
+    background: #1d4ed8;
+}
