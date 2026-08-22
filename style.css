@@ -204,8 +204,9 @@ footer {
 .learn-btn:hover {
     background: #1d4ed8;
 }
-* {
-    .javascript-section {
+
+
+.javascript-section {
     background: #f7df1e;
     padding: 50px 20px;
     text-align: center;
