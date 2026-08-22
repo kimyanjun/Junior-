@@ -205,4 +205,35 @@ footer {
     background: #1d4ed8;
 }
 * {
-    
+    .javascript-section {
+    background: #f7df1e;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.javascript-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.javascript-section p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.js-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.js-btn:hover {
+    background: #444;
+}
