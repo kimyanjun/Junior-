@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JavaScript</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="javascript.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Learn JavaScript</h1>
+        <p>Make your websites interactive with JavaScript.</p>
+    </header>
+
+    <main>
+
+        <!-- Introduction -->
+        <section class="lesson">
+            <h2>What is JavaScript?</h2>
+
+            <p>
+                JavaScript is a programming language used to make websites
+                interactive. HTML creates the structure, CSS controls the
+                appearance, and JavaScript adds actions and behavior.
+            </p>
+
+            <div class="code-box">
+                <h3>Basic JavaScript</h3>
+
+                <pre>
+let name = "Ray";
+console.log("Hello " + name);
+                </pre>
+            </div>
+        </section>
+
+
+        <!-- HTML + CSS + JavaScript -->
+        <section class="lesson">
+            <h2>Example 1: Change Text</h2>
+
+            <p id="message">Click the button to change this text.</p>
+
+            <button class="btn" onclick="changeText()">
+                Click Me
+            </button>
+        </section>
+
+
+        <!-- Variables -->
+        <section class="lesson">
+            <h2>Example 2: Variables</h2>
+
+            <p>
+                Variables store information that your program can use.
+            </p>
+
+            <div class="code-box">
+                <pre>
+let age = 15;
+let name = "Alex";
+
+console.log(name);
+console.log(age);
+                </pre>
+            </div>
+        </section>
+
+
+        <!-- Calculator -->
+        <section class="lesson">
+            <h2>Example 3: Simple Calculator</h2>
+
+            <input type="number" id="number1" placeholder="Enter first number">
+
+            <input type="number" id="number2" placeholder="Enter second number">
+
+            <button class="btn" onclick="addNumbers()">
+                Add Numbers
+            </button>
+
+            <p id="result">Result will appear here.</p>
+        </section>
+
+
+        <!-- If statement -->
+        <section class="lesson">
+            <h2>Example 4: If Statement</h2>
+
+            <p>
+                An if statement allows JavaScript to make decisions.
+            </p>
+
+            <div class="code-box">
+                <pre>
+let age = 18;
+
+if (age >= 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are under 18.");
+}
+                </pre>
+            </div>
+        </section>
+
+
+        <!-- Conclusion -->
+        <section class="lesson">
+            <h2>What to Learn Next</h2>
+
+            <ul>
+                <li>Variables</li>
+                <li>Data types</li>
+                <li>Functions</li>
+                <li>Conditions</li>
+                <li>Loops</li>
+                <li>Arrays</li>
+                <li>Objects</li>
+                <li>DOM manipulation</li>
+                <li>Events</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Connect JavaScript -->
+    <script src="javascript.js"></script>
+
+</body>
+                  </html>
