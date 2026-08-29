@@ -238,13 +238,16 @@ footer {
 .js-btn:hover {
     background: #444;
 }
-```css
 .python-section {
     text-align: center;
     padding: 40px 20px;
     margin: 30px auto;
     max-width: 700px;
     background-color: #f4f7fb;
+
+    /* This creates the border */
+    border: 2px solid #306998;
+
     border-radius: 10px;
 }
 
@@ -270,5 +273,4 @@ footer {
 .btn:hover {
     background: #244f73;
 }
-```
   
