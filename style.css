@@ -238,3 +238,37 @@ footer {
 .js-btn:hover {
     background: #444;
 }
+```css
+.python-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    background-color: #f4f7fb;
+    border-radius: 10px;
+}
+
+.python-section h2 {
+    color: #306998;
+}
+
+.python-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #306998;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #244f73;
+}
+```
+  
