@@ -269,6 +269,59 @@ footer {
     border-radius: 8px;
     font-weight: bold;
 }
+```css
+/* Learning Resources Section */
+
+.resources {
+    text-align: center;
+    padding: 40px 25px;
+    margin: 30px auto;
+    max-width: 700px;
+    background-color: #f4f7fb;
+    border: 2px solid #2563eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resources h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.resources p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+
+/* Resource Buttons */
+
+.resource-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.resource-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.resource-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+}
+```
+
 
 .btn:hover {
     background: #244f73;
