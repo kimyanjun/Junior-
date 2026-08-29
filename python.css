@@ -1,0 +1,94 @@
+```css
+/* General styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+
+/* Header */
+
+header {
+    background-color: #306998;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+
+/* Main content */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+/* Lesson cards */
+
+.lesson {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Headings */
+
+h2 {
+    color: #306998;
+}
+
+
+/* Code boxes */
+
+pre {
+    background-color: #222;
+    color: #00ff88;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+
+/* Output boxes */
+
+.output {
+    background-color: #e8f5e9;
+    padding: 12px;
+    border-left: 5px solid #306998;
+    font-weight: bold;
+}
+
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #306998;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+/* Button hover */
+
+.btn:hover {
+    background: #244f73;
+}
+```
+  
